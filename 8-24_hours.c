@@ -1,7 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * jack_bauer - printing his every minute of his day
  * Return: nothing
+ *
  */
 void jack_bauer(void)
 {
@@ -23,4 +25,5 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 	}
+	 printf("an hour %02d has passed.\n", m);
 }
